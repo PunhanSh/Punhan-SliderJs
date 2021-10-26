@@ -1,0 +1,47 @@
+.slideshow-container {
+    height: 500px;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.sliders {
+    display: none;
+}
+
+.count {
+    color: rgb(54, 31, 31);
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+}
+
+.last,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+}
+
+.next {
+    right: 0;
+}
+
+.last:hover,
+.next:hover {
+    color: rgb(150, 25, 25);
+}
